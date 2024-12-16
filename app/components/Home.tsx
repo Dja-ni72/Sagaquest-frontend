@@ -35,9 +35,10 @@ const styles: { [key: string]: React.CSSProperties } = {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    /*
     backgroundImage: 'url("/background-image.jpg")', // Remplace par une image dans /public
     backgroundSize: 'cover',
-    backgroundAttachment: 'fixed',
+    backgroundAttachment: 'fixed',*/
   },
   description: {
     fontSize: '18px',
