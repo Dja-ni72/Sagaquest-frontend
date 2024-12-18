@@ -35,6 +35,9 @@ const styles: { [key: string]: React.CSSProperties } = {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundImage: 'url("/home_wallpaper.jpg")',
+    backgroundSize: 'cover',
+    backgroundAttachment: 'fixed',
   },
   description: {
     fontSize: '18px',
@@ -55,8 +58,8 @@ const styles: { [key: string]: React.CSSProperties } = {
   },
   sagaText: {
     margin: 0,
-    fontSize: '28px',
-    color: '#555',
+    fontSize: '32px',
+    color: '#333',
   },
 };
 
